@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(238, 225, 225);
+    margin: 0;
+ }
+ 
+ .section-form{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+ .colorful-form {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 44px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .form-button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #ff6f69;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #ff5f59;
+  }
+  header{
+    display: flex;
+    position: sticky;
+    justify-content: baseline;
+    top: -8px;
+    margin-top: 0%;
+    background-color: rgb(240, 158, 158);
+    z-index: 101;
+    align-items: center;
+    justify-content: safe;
+    padding-left: 7px;
+}
+
+header img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+header p{
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+
+}
+.div-p{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+}
+
+.home{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  background-color: #79b471;
+  margin-top: 7px;
+  margin-left: 7px;
+  box-shadow: 0px 0px 10px 2px #79b471;
+  cursor: pointer;
+}
+.img-home{
+  width: 40px;
+  height: 40px;
+}
+
+#welcome{
+  margin-left: 35%;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+  @media  screen and (max-width:600px) {
+    .colorful-form{
+     margin-left: 2px;
+     margin-right: 2px;
+    }
+ }

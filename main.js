@@ -1,8 +1,8 @@
 function loading(){
-  document.getElementById("load").style.display = `flex`;
+  document.getElementById("load").style.visibility = `visible`;
 }
 function stop(){
-  document.getElementById("load").style.display = `none`;
+  document.getElementById("load").style.visibility = `hidden`;
 }
 
 

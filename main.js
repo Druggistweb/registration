@@ -1,11 +1,3 @@
-function loading(){
-  document.getElementById("load").style.visibility = `visible`;
-}
-function stop(){
-  document.getElementById("load").style.visibility = `hidden`;
-}
-
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxPpm_VGtat81n-NgLDsR-uK8Kdxc-_MSXPFjsNHz5xs598-plQ7z5U_VtI-IHWLewq/exec'
 
 const form = document.forms['form']
@@ -17,3 +9,10 @@ form.addEventListener('submit', e => {
   .then(() => { window.location.reload(); })
   .catch(error => console.error('Error!', error.message))
 })
+function loading(){
+  document.getElementById("load").style.visibility = `visible`;
+}
+function stop(){
+  document.getElementById("load").style.visibility = `hidden`;
+}
+

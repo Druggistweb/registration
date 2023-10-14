@@ -1,3 +1,11 @@
+function loading(){
+  document.getElementById("load").style.display = `flex`;
+}
+function stop(){
+  document.getElementById("load").style.display = `none`;
+}
+
+
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxPpm_VGtat81n-NgLDsR-uK8Kdxc-_MSXPFjsNHz5xs598-plQ7z5U_VtI-IHWLewq/exec'
 
 const form = document.forms['form']

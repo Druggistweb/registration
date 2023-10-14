@@ -161,7 +161,8 @@ a{
 
 
 .load{
-  display: none;
+  visibility: hidden;
+  display: flex;
   width: 50%;
   direction: ltr;
   transform: translatey(26px) translatex(-168px);
